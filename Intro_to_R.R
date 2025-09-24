@@ -53,6 +53,7 @@ summary(dat)
   ## Column name 
   colnames(dat)[5] = "2024-04-02"
 
-  dat
+  dat %>%
+    pivot_longer(cols = c(`2024-02-02`, `2024-03-02`, `2024-04-02`), values_to = "height")
   
   
