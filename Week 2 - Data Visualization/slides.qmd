@@ -28,6 +28,7 @@ knitr::opts_chunk$set(fig.align = 'center')
 - We are the Statistical Cross-disciplinary Collaboration & Consulting Lab (SC3L) from the UNL Department of Statistics.
 - We offer free statistical consulting services to students, faculty, and staff within INAR at UNL.
 - Workshops! Hosted from 2-3pm on Wednesdays and 10-11 on Thursdays.
+- GitHub: <https://github.com/StatHelpUNL/Workshop_25Fall>
 
 :::
 
