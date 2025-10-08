@@ -18,11 +18,11 @@ t_test_result_2 <- t.test(website_A, website_B, alternative = "greater", var.equ
 print(t_test_result_2)
 
 # Sample data
-before <- c(85, 90, 78, 88, 92, 80)
-after <- c(82, 87, 76, 86, 91, 78)
+before <- c(11.2,10.9, 11.5, 12,   11.8, 10.7, 11 ,  12.2)
+after <- c(10.8, 10.5, 11.1, 11.4, 11.3, 10.4, 10.6, 11.8)
 
 # Perform left-tailed paired t-test
-t_test_result3 <- t.test(before, after, paired = TRUE, alternative = "less")
+t_test_result3 <- t.test(before, after, paired = TRUE, alternative = "greater")
 
 # Print results
 print(t_test_result3)

@@ -50,7 +50,7 @@ run;
 
 /* Step 2: Perform the Paired t-Test */
 
-PROC TTEST DATA=sprint_times SIDES=L ALPHA=0.05;
+PROC TTEST DATA=sprint_times SIDES=U ALPHA=0.05;
     PAIRED before*after;
 RUN;
 
